@@ -1,0 +1,82 @@
+@charset "utf-8";
+ 
+  
+.pin-icon{
+   fill:rgb(121, 121, 121);
+   margin-left: 180px;
+   margin-top: -30px;
+   display: flex;
+   
+}
+#chuo:checked + label .pin-icon{
+  fill: #dff709;
+}
+.favoritebt{
+  z-index: 20;
+  display: flex;
+  margin-left: 130px;
+  margin-top: -13px;
+  z-index: 100;
+}
+
+.checkbocx{
+ transform: scale(3.5);
+ margin-top: 14px;
+ margin-left: 160px;
+ opacity: 0;
+}
+@media(max-width:800px){
+ 
+  
+.pin-icon{
+   fill:rgb(121, 121, 121);
+   margin-left: 180px;
+   margin-top: -20px;
+   display: flex;
+   
+}
+#chuo:checked + label .pin-icon{
+  fill: #dff709;
+}
+.favoritebt{
+  z-index: 20;
+  display: flex;
+  margin-left: 130px;
+  margin-top: -13px;
+  z-index: 100;
+}
+
+.checkbocx{
+ transform: scale(3.5);
+ margin-top: 5px;
+ margin-left: 140px;
+ opacity: 0;
+}}
+@media(max-width:480px){
+  .pin-icon{
+    fill:rgb(121, 121, 121);
+    margin-left: 100px;
+    margin-top: -20px;
+    display: flex;
+    
+ }
+ #chuo:checked + label .pin-icon{
+   fill: #dff709;
+ }
+ .favoritebt{
+   z-index: 20;
+   display: flex;
+   margin-left: 70px;
+   margin-top: -13px;
+   z-index: 100;
+ }
+ 
+ .checkbocx{
+  transform: scale(2);
+  margin-top: 5px;
+  margin-left: 75px;
+  opacity: 0;
+ }
+
+}
+
